@@ -15,3 +15,4 @@ passengerDistance = Number(passengerDistance);
 passengerAge = Number(passengerAge);
 
 // A questo punto, calcolo il prezzo base del biglietto (0.21€ per km percorso);
+const ticketPrice = 0.21 * passengerDistance;
