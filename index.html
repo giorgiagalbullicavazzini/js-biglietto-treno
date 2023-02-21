@@ -15,12 +15,31 @@
 </head>
 
 <body>
-  <h1>Boolitalia</h1>
-  <h2>Gruppo Ferrovie dello Stato Booleane</h2>
-  <div>Il costo del biglietto per una tratta di <span>numero km</span> è di</div>
-  <div>costo biglietto</div>
-  <div>I passeggeri che non hanno ancora compiuto la maggior età hanno diritto ad uno sconto del 20%.</div>
-  <div>Gli over 65 hanno invece diritto a uno sconto del 40%.</div>
+  <!-- Container -->
+  <div class="position-absolute top-50 start-50 translate-middle text-center">
+    <!-- Title -->
+    <div class="title text-uppercase mb-5">
+      <h1>Boolitalia</h1>
+      <h2>Gruppo Ferrovie dello Stato Booleane</h2>
+    </div>
+    <!-- // Title -->
+
+    <!-- Ticket price -->
+    <div class="ticket-price mb-3">
+      <div>Il costo del biglietto per un passeggero di anni <span id="passenger-age">x</span> per una tratta di <span>x</span> km è di:</div>
+      <div>€ <span id="ticket-price">x</span></div>  
+    </div>
+    <!-- // Ticket price -->
+
+    <!-- Discout -->
+    <div class="discount">
+      <div><em>I passeggeri che non hanno ancora compiuto la maggior età hanno diritto ad uno sconto del 20%.</em></div>
+      <div><em>I passeggeri over 65 hanno invece diritto a uno sconto del 40%.</em></div>
+    </div>
+    <!-- // Discount -->
+  </div>
+  <!-- // Container -->
+
   <!-- JS -->
   <!-- <script src="js/main.js"></script> -->
 </body>
