@@ -7,8 +7,8 @@ let passengerDistance = prompt('Inserisci il numero di chilometri da percorrere'
 let passengerAge = prompt('Inserisci l\'età del passeggero');
 
 // Per calcolare il prezzo del biglietto, devo trasformare le stringhe fornite dall'utente in numeri
-passengerDistance = Number(passengerDistance);
-passengerAge = Number(passengerAge);
+passengerDistance = parseInt(passengerDistance);
+passengerAge = parseInt(passengerAge);
 
 // A questo punto, calcolo il prezzo base del biglietto (0.21€ per km percorso)
 let ticketPrice = 0.21 * passengerDistance;
