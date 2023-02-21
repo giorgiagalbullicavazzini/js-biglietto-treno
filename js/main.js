@@ -23,4 +23,9 @@ if (passengerAge < 18) {
 
 // Per fornire un output in forma umana, il numero ricavato dovrà contenere un massimo di due decimali che indicheranno i centesimi da pagare per il biglietto
 ticketPrice = Math.floor(ticketPrice * 100) / 100;
+
 console.log(ticketPrice);
+
+document.getElementById('passenger-distance').innerHTML = passengerDistance;
+document.getElementById('passenger-age').innerHTML = passengerAge;
+document.getElementById('ticket-price').innerHTML = ticketPrice;
